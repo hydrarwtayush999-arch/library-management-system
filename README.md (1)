@@ -1,0 +1,25 @@
+# Python Library Management System
+
+## Introduction
+This project is a simple Library Management System developed using Python. It helps manage basic library operations such as adding books, displaying books, and searching for books.
+
+## Objectives
+- To understand the basics of Python programming.
+- To learn how to use functions and lists.
+- To develop a simple project using Python.
+- To practice uploading and managing code on GitHub.
+
+## Features
+- Add new books to the library.
+- Display the list of available books.
+- Search for a particular book.
+- Simple and user-friendly program.
+
+## Technologies Used
+- *Programming Language:* Python
+- *Code Editor:* Spyder
+- *Platform:* GitHub
+
+## How to Run
+1. Download or clone this repository.
+2. Open the project in Python or Spyder.…
