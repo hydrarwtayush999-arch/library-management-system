@@ -13,23 +13,20 @@ def view_books():
         for book in books:
             print(book["name"], "-", book["author"])
 
-def main():
-    while True:
-        print("\n--- Library Management System ---")
-        print("1. Add Book")
-        print("2. View Books")
-        print("3. Exit")
+while True:
+    print("\n--- Library Management System ---")
+    print("1. Add Book")
+    print("2. View Books")
+    print("3. Exit")
 
-        choice = input("Enter your choice: ")
+    choice = input("Enter your choice: ")
 
-        if choice == "1":
-            add_book()
-        elif choice == "2":
-            view_books()
-        elif choice == "3":
-            print("Thank you!")
-            break
-        else:
-            print("Invalid choice!")
-
-main()
+    if choice == "1":
+        add_book()
+    elif choice == "2":
+        view_books()
+    elif choice == "3":
+        print("Thank you!")
+        break
+    else:
+        print("Invalid choice!")
